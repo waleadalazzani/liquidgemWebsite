@@ -1,0 +1,166 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid #696969;
+	text-align: right;
+	height: 80px;
+}
+
+nav h1 {
+	float: left;
+	margin-left: 20px;
+	display: inline-block;
+	font-family: 'Cookie', cursive;
+}
+
+nav ul {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #696969;
+	margin-right: 25px;
+}
+
+.fa-gem {
+	font-size: 30px;
+	color: #F08080;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+.left, .right {
+	width: 45%;
+	display: inline-block;
+}
+
+.left h3, .right h3 {
+	text-align: center;
+}
+
+.left p, .right p {
+	width: 100%;
+	margin: 25px auto;
+}
+
+.left {
+	margin-left: 30px;
+	margin-right: 40px;
+}
+
+.top {
+	text-align: center;
+}
+
+.top img {
+	width: 100%;
+	height: 450px;
+}
+
+.middleList li {
+	list-style-type: none;
+}
+
+.middleList a {
+	text-decoration: none;
+}
+
+.boxOne img, .boxTwo img, .boxThree img, .boxFour img, .boxFive img, .boxSix img, .boxSeven img, .boxEight img, .boxNine img, .boxTen img {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+div.boxOne, div.boxTwo, div.boxThree, div.boxFour, div.boxFive, div.boxSix, div.boxSeven, div.boxEight, div.boxNine, div.boxTen {
+	width: 280px;
+	height: 280px;
+	text-align: left;
+	padding-bottom: 50px;
+
+}
+
+.boxOne h3, .boxTwo h3, .boxThree h3, .boxFour h3, .boxFive h3, .boxSix h3, .boxSeven h3, .boxEight h3, .boxNine h3, .boxTen h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.boxOne h5, .boxTwo h5, .boxThree h5, .boxFour h5, .boxFive h5, .boxSix h5, .boxSeven h5, .boxEight h5, .boxNine h5, .boxTen h5 {
+	margin-top: 0;
+}
+
+.firstList, .secondList, .thirdList, .fourthList, .fifthList {
+	display: inline-block;
+	height: 400px;
+}
+
+.thankYou {
+	width: 100%;
+	text-align: center;
+}
+
+.thankYou h2 {
+	margin-top: 80px;
+	margin-bottom: 35px;
+}
+
+footer {
+	height: 300px;
+	width: 100%;
+	background-color: #2F2F2F;
+	display: block;
+}
+
+form > input,
+form > textarea {
+	display: block;
+	width: 30%;
+	margin: 15px;
+	margin-bottom: 0;
+	border-radius: 3px;
+}
+
+form > button {
+	margin: 15px;
+}
+
+footer h3 {
+	margin: 15px;
+	margin-bottom: 0;
+	padding-top: 40px;
+}
+
+footer li {
+	display: inline-block;
+	margin-right: 23px;
+	font-size: 30px;
+}
+
+footer a {
+	color: #F08080;
+}
+
+footer ul {
+	text-align: right;
+}
+
+.name {
+	color: #F08080;
+}
+
+.cursive {
+	color: #F08080;
+	font-family: 'Cookie', cursive;
+}
