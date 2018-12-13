@@ -117,7 +117,7 @@ div.boxOne, div.boxTwo, div.boxThree, div.boxFour, div.boxFive, div.boxSix, div.
 }
 
 footer {
-	height: 300px;
+	height: 250px;
 	width: 100%;
 	background-color: #2F2F2F;
 	display: block;
@@ -126,9 +126,8 @@ footer {
 form > input,
 form > textarea {
 	display: block;
-	width: 30%;
+	width: 100%;
 	margin: 15px;
-	margin-bottom: 0;
 	border-radius: 3px;
 }
 
@@ -153,7 +152,19 @@ footer a {
 }
 
 footer ul {
-	text-align: right;
+	padding-bottom: 0;
+}
+
+.footerDiv {
+	display: inline-block;
+	width: 30%;
+}
+
+.footerDivTwo {
+	display: inline-block;
+	float: right;
+	margin-top: 100px;
+
 }
 
 .name {
@@ -164,3 +175,99 @@ footer ul {
 	color: #F08080;
 	font-family: 'Cookie', cursive;
 }
+
+@media(max-width: 1620px) {
+	.firstList, .secondList, .thirdList, .fourthList, .fifthList {
+		display: block;
+		height: 340px;
+		text-align: center;
+		margin-bottom: 130px;
+	}
+
+	.middleList li {
+		display: inline-block;
+		text-align: left;
+		padding: 40px;
+	}
+
+	div.boxOne, div.boxTwo, div.boxThree, div.boxFour, div.boxFive, div.boxSix, div.boxSeven, div.boxEight, div.boxNine, div.boxTen {
+		height: 400px;
+		width: 400px;
+	}
+
+	.thankYou {
+		height: 100px;
+	}
+
+	.thankYou h2 {
+		padding-top: 50px;
+	}
+}
+
+@media(max-width: 1005px) {
+	.firstList, .secondList, .thirdList, .fourthList, .fifthList {
+		display: block;
+		height: 400px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.middleList li {
+		display: inline-block;
+		padding: 40px;
+	}
+
+	div.boxOne, div.boxTwo, div.boxThree, div.boxFour, div.boxFive, div.boxSix, div.boxSeven, div.boxEight, div.boxNine, div.boxTen {
+		height: 280px;
+		width: 280px;
+	}
+
+	.thankYou {
+		height: 50px;
+	}
+
+	.thankYou h2 {
+		padding-top: 0px;
+	}
+}
+
+@media(max-width: 765px) {
+	.firstList, .secondList, .thirdList, .fourthList, .fifthList {
+		display: block;
+		height: 800px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.left, .right {
+		display: block;
+		width: 90%;
+		text-align: center;
+	
+	}
+
+	.middleList li {
+		display: inline-block;
+		padding: 40px;
+		width: 410px;
+	}
+
+	.middleList {
+		text-align: center;	
+	}
+}
+
+@media(max-width: 560px) {
+/*	.navUl {
+		display: block;
+	}*/
+
+	nav h1 {
+		display: none;
+	}
+
+	.top img {
+		height: 300px;
+	}
+}
+
