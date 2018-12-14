@@ -271,3 +271,12 @@ footer ul {
 	}
 }
 
+@media(max-width: 427px) {
+	.fa-gem {
+		margin-left: 2px;
+	}
+
+	nav a {
+		margin-right: 10px;
+	}
+}
