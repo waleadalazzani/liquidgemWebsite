@@ -1,4 +1,5 @@
 body {
+	padding: 0;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -254,6 +255,10 @@ footer ul {
 
 	.middleList {
 		text-align: center;	
+	}
+
+	footer {
+	height: 300px;
 	}
 }
 
