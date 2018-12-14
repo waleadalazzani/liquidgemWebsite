@@ -256,10 +256,6 @@ footer ul {
 	.middleList {
 		text-align: center;	
 	}
-
-	footer {
-	height: 300px;
-	}
 }
 
 @media(max-width: 560px) {
